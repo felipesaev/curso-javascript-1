@@ -18,7 +18,7 @@ class NegociacoesView {
             </thead>
         
         <tbody>
-            ${model.Negociacoes.map((n) =>              
+            ${model.negociacoes.map(n =>              
                 `   <tr>
                         <td>${DateHelper.DataParaTexto(n.data)}</td>
                         <td>${n.quantidade}</td>
